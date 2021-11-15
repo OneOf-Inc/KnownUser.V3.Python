@@ -82,7 +82,7 @@ class RequestValidationResult:
         return ""
 
 
-class KnownUserError(StandardError):
+class KnownUserError(Exception):
     pass
 
 
